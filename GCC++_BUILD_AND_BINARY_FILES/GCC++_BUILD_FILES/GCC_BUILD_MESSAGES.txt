@@ -10,7 +10,7 @@ Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.1.0 (GCC) 
 COLLECT_GCC_OPTIONS='-v' '-g' '-Wall' '-Wextra' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE ../SOURCE_CPP/MyFile.cpp -quiet -dumpbase MyFile.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -Wall -Wextra -version -o /tmp/ccdJGptG.s
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE ../SOURCE_CPP/MyFile.cpp -quiet -dumpbase MyFile.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -Wall -Wextra -version -o /tmp/ccJuNHuW.s
 GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 11.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -48,7 +48,7 @@ Compiler executable checksum: 45eb9a71cc15bfdc579557bea4b77e51
    28 |         MyWindow(size_t WWidth, size_t WHeight, std::string WTitle){
       |                                                 ~~~~~~~~~~~~^~~~~~
 COLLECT_GCC_OPTIONS='-v' '-g' '-Wall' '-Wextra' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --gdwarf-5 --64 -o MyFile.o /tmp/ccdJGptG.s
+ as -v --gdwarf-5 --64 -o MyFile.o /tmp/ccJuNHuW.s
 GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
@@ -62,7 +62,7 @@ Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.1.0 (GCC) 
 COLLECT_GCC_OPTIONS='-v' '-g' '-Wall' '-Wextra' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE ../SOURCE_CPP/MyFourthFile.cpp -quiet -dumpbase MyFourthFile.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -Wall -Wextra -version -o /tmp/ccdvYbYa.s
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE ../SOURCE_CPP/MyFourthFile.cpp -quiet -dumpbase MyFourthFile.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -Wall -Wextra -version -o /tmp/ccREQlZP.s
 GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 11.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -84,7 +84,7 @@ GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 45eb9a71cc15bfdc579557bea4b77e51
 COLLECT_GCC_OPTIONS='-v' '-g' '-Wall' '-Wextra' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --gdwarf-5 --64 -o MyFourthFile.o /tmp/ccdvYbYa.s
+ as -v --gdwarf-5 --64 -o MyFourthFile.o /tmp/ccREQlZP.s
 GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
@@ -98,7 +98,7 @@ Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.1.0 (GCC) 
 COLLECT_GCC_OPTIONS='-v' '-g' '-Wall' '-Wextra' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE ../SOURCE_CPP/MySecondFile.cpp -quiet -dumpbase MySecondFile.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -Wall -Wextra -version -o /tmp/cckPCyVG.s
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE ../SOURCE_CPP/MySecondFile.cpp -quiet -dumpbase MySecondFile.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -Wall -Wextra -version -o /tmp/cceKUvKe.s
 GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 11.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -120,7 +120,7 @@ GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 45eb9a71cc15bfdc579557bea4b77e51
 COLLECT_GCC_OPTIONS='-v' '-g' '-Wall' '-Wextra' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --gdwarf-5 --64 -o MySecondFile.o /tmp/cckPCyVG.s
+ as -v --gdwarf-5 --64 -o MySecondFile.o /tmp/cceKUvKe.s
 GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
@@ -134,7 +134,7 @@ Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.1.0 (GCC) 
 COLLECT_GCC_OPTIONS='-v' '-g' '-Wall' '-Wextra' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE ../SOURCE_CPP/MyThirdFile.cpp -quiet -dumpbase MyThirdFile.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -Wall -Wextra -version -o /tmp/ccYVdmKH.s
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE ../SOURCE_CPP/MyThirdFile.cpp -quiet -dumpbase MyThirdFile.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -Wall -Wextra -version -o /tmp/cccjjYur.s
 GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 11.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -156,7 +156,7 @@ GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 45eb9a71cc15bfdc579557bea4b77e51
 COLLECT_GCC_OPTIONS='-v' '-g' '-Wall' '-Wextra' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --gdwarf-5 --64 -o MyThirdFile.o /tmp/ccYVdmKH.s
+ as -v --gdwarf-5 --64 -o MyThirdFile.o /tmp/cccjjYur.s
 GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
@@ -172,7 +172,7 @@ Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.1.0 (GCC) 
 COLLECT_GCC_OPTIONS='-v' '-g' '-Wall' '-Wextra' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE ../SOURCE_CPP/MyCXXFile.cxx -quiet -dumpbase MyCXXFile.cxx -dumpbase-ext .cxx -mtune=generic -march=x86-64 -g -Wall -Wextra -version -o /tmp/cc3S21lF.s
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE ../SOURCE_CPP/MyCXXFile.cxx -quiet -dumpbase MyCXXFile.cxx -dumpbase-ext .cxx -mtune=generic -march=x86-64 -g -Wall -Wextra -version -o /tmp/cckhM72v.s
 GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 11.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -194,10 +194,10 @@ GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 45eb9a71cc15bfdc579557bea4b77e51
 COLLECT_GCC_OPTIONS='-v' '-g' '-Wall' '-Wextra' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --gdwarf-5 --64 -o MyCXXFile.o /tmp/cc3S21lF.s
+ as -v --gdwarf-5 --64 -o MyCXXFile.o /tmp/cckhM72v.s
 GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
 COLLECT_GCC_OPTIONS='-v' '-g' '-Wall' '-Wextra' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-Moving all .o files to ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BUILD_FILES/
+Moving all .o and .so files to ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BUILD_FILES/
 PROGRAM BUILT! YOUR OBJECT FILES ARE IN THE "BUILD" FOLDER

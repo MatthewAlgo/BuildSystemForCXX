@@ -1,4 +1,4 @@
-LINKING ALL .O FILES IN ../CLANG++_BUILD_AND_BINARY_FILES/CLANG++_BUILD_FILES/
+~~~~~~~~~~~~~~LINKING OBJ FILES FROM /BUILD...~~~~~~~~~~~~~~~~
 clang version 12.0.1
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -16,5 +16,5 @@ Candidate multilib: .;@m64
 Candidate multilib: 32;@m32
 Selected multilib: .;@m64
 Found CUDA installation: /opt/cuda, version 11.0
-clang-12: error: no such file or directory: '../CLANG++_BUILD_AND_BINARY_FILES/CLANG++_BUILD_FILES/*.o'
-EXECUTABLE CREATED! IT IS LOCATED IN THE ../CLANG++_BUILD_AND_BINARY_FILES/CLANG++_BINARY_FILES FOLDER UNDER THE NAME OF EXECUTABLE.exe
+ "/usr/bin/ld" -pie --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o ../CLANG++_BUILD_AND_BINARY_FILES/CLANG++_BINARY_FILES/EXECUTABLE.exe /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64 -L/usr/bin/../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. -L/usr/bin/../lib -L/lib -L/usr/lib ../CLANG++_BUILD_AND_BINARY_FILES/CLANG++_BUILD_FILES/MyCXXFile.o ../CLANG++_BUILD_AND_BINARY_FILES/CLANG++_BUILD_FILES/MyFile.o ../CLANG++_BUILD_AND_BINARY_FILES/CLANG++_BUILD_FILES/MyFourthFile.o ../CLANG++_BUILD_AND_BINARY_FILES/CLANG++_BUILD_FILES/MySecondFile.o ../CLANG++_BUILD_AND_BINARY_FILES/CLANG++_BUILD_FILES/MyThirdFile.o -lsfml-graphics -lsfml-window -lsfml-audio -lsfml-system -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/crtn.o
+~~~~~~~~~~~~~~EXECUTABLE BUILT! OUTPUT IN /CLANG++_BUILD_AND_BINARY_FILES/CLANG++_BINARY_FILES/EXECUTABLE.exe~~~~~~~~~~~~~~~~

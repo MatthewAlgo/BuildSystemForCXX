@@ -40,7 +40,6 @@ set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/CMAKE_MODULES" ${CMAKE_MODULE_PATH})
 find_package(SFML 2 COMPONENTS network audio graphics window system REQUIRED)
 if(SFML_FOUND)
   include_directories(${SFML_INCLUDE_DIR})
-  # target_link_libraries(${EXECUTABLE_NAME} ${SFML_LIBRARIES} ${SFML_DEPENDENCIES})
   target_link_libraries(${EXECUTABLE_NAME} sfml-window sfml-graphics sfml-network sfml-system)
 endif()
 
@@ -49,13 +48,9 @@ find_package(OpenGL REQUIRED)
 include_directories(${OPENGL_INCLUDE_DIR})
 if (OPENGL_FOUND)
   target_link_libraries(${EXECUTABLE_NAME} ${OPENGL_LIBRARIES})
-  # or: target_link_libraries(${EXECUTABLE_NAME} ${OPENGL_gl_LIBRARY})
-  target_link_libraries(${EXECUTABLE_NAME} m)  # if you use maths.h
 endif()
 
 #~~~~~~~~~~~~~~~~~~~~~ TO LINK THE BOOST LIBRARY ~~~~~~~~~~~~~~~~~~~~~~~
-# boost::filesystem
-#set(Boost_ADDITIONAL_VERSIONS "1.78" "1.78.0" "1.79" "1.79.0")
 find_package(Boost 1.34.0 REQUIRED system filesystem)
 if(Boost_FOUND)
   include_directories(${Boost_INCLUDE_DIRS})
@@ -68,9 +63,8 @@ pkg_check_modules(yaml-cpp REQUIRED yaml-cpp>=0.2.5)
 if(yaml-cpp_FOUND)
   include_directories(${yaml-cpp_INCLUDE_DIRS})
   link_directories(${yaml-cpp_LIBRARY_DIRS})
+  target_link_libraries(${EXECUTABLE_NAME} ${yaml-cpp_LIBRARIES})
 endif()
-# add_executable(${EXECUTABLE_NAME} ${SOURCES})
-target_link_libraries(${EXECUTABLE_NAME} ${yaml-cpp_LIBRARIES})
 
 
 install(TARGETS ${EXECUTABLE_NAME} DESTINATION BINARY_CMAKE)

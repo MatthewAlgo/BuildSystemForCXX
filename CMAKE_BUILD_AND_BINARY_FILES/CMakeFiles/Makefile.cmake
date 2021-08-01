@@ -10,7 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.20.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.5/CMakeSystem.cmake"
-  "/run/media/matthewalgo/DATA_DISK_DRIVE/PROJECT_STRUCTURE/ProjectSkeletonForC++/SOURCE_CPP/CMakeLists.txt"
+  "/run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/CMakeLists.txt"
   "/usr/lib64/cmake/Boost-1.76.0/BoostConfig.cmake"
   "/usr/lib64/cmake/Boost-1.76.0/BoostConfigVersion.cmake"
   "/usr/lib64/cmake/BoostDetectToolset-1.76.0.cmake"
