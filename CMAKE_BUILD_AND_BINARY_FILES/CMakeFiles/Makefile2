@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP
+CMAKE_SOURCE_DIR = /home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES
+CMAKE_BINARY_DIR = /home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/clean
 CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target MY_CPP_PROJECT_CMAKE.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles --progress-num=1,2 "Built target MY_CPP_PROJECT_CMAKE.exe"
 .PHONY : CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles 0
 .PHONY : CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/rule
 
 # Convenience name for target.

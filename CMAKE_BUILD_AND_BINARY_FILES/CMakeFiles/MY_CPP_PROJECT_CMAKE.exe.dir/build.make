@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP
+CMAKE_SOURCE_DIR = /home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES
+CMAKE_BINARY_DIR = /home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/depend.make
@@ -70,103 +70,45 @@ include CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/progress.make
 include CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/flags.make
 
 CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/flags.make
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o: /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyFile.cpp
+CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o: /home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP/MyFile.cpp
 CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o -MF CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o.d -o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o -c /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o -MF CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o.d -o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o -c /home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP/MyFile.cpp
 
 CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyFile.cpp > CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP/MyFile.cpp > CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.i
 
 CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyFile.cpp -o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.s
-
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.o: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/flags.make
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.o: /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyFourthFile.cpp
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.o: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.o -MF CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.o.d -o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.o -c /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyFourthFile.cpp
-
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyFourthFile.cpp > CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.i
-
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyFourthFile.cpp -o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.s
-
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.o: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/flags.make
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.o: /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MySecondFile.cpp
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.o: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.o -MF CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.o.d -o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.o -c /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MySecondFile.cpp
-
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MySecondFile.cpp > CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.i
-
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MySecondFile.cpp -o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.s
-
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.o: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/flags.make
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.o: /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyThirdFile.cpp
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.o: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.o -MF CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.o.d -o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.o -c /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyThirdFile.cpp
-
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyThirdFile.cpp > CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.i
-
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyThirdFile.cpp -o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.s
-
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.o: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/flags.make
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.o: /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyCXXFile.cxx
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.o: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.o -MF CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.o.d -o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.o -c /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyCXXFile.cxx
-
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyCXXFile.cxx > CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.i
-
-CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyCXXFile.cxx -o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP/MyFile.cpp -o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.s
 
 # Object files for target MY_CPP_PROJECT_CMAKE.exe
 MY_CPP_PROJECT_CMAKE_exe_OBJECTS = \
-"CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o" \
-"CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.o" \
-"CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.o" \
-"CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.o" \
-"CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.o"
+"CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o"
 
 # External object files for target MY_CPP_PROJECT_CMAKE.exe
 MY_CPP_PROJECT_CMAKE_exe_EXTERNAL_OBJECTS =
 
 MY_CPP_PROJECT_CMAKE.exe: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o
-MY_CPP_PROJECT_CMAKE.exe: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.o
-MY_CPP_PROJECT_CMAKE.exe: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.o
-MY_CPP_PROJECT_CMAKE.exe: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.o
-MY_CPP_PROJECT_CMAKE.exe: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.o
 MY_CPP_PROJECT_CMAKE.exe: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make
-MY_CPP_PROJECT_CMAKE.exe: /usr/lib/libsfml-graphics.so.2.5.1
-MY_CPP_PROJECT_CMAKE.exe: /usr/lib/libsfml-network.so.2.5.1
-MY_CPP_PROJECT_CMAKE.exe: /usr/lib/libOpenGL.so
-MY_CPP_PROJECT_CMAKE.exe: /usr/lib/libGLX.so
-MY_CPP_PROJECT_CMAKE.exe: /usr/lib/libGLU.so
-MY_CPP_PROJECT_CMAKE.exe: /usr/lib/libboost_system.so.1.76.0
-MY_CPP_PROJECT_CMAKE.exe: /usr/lib/libboost_filesystem.so.1.76.0
-MY_CPP_PROJECT_CMAKE.exe: /usr/lib/libsfml-window.so.2.5.1
-MY_CPP_PROJECT_CMAKE.exe: /usr/lib/libsfml-system.so.2.5.1
+MY_CPP_PROJECT_CMAKE.exe: /home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libsfml-system-s-d.a
+MY_CPP_PROJECT_CMAKE.exe: /home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libsfml-network-s-d.a
+MY_CPP_PROJECT_CMAKE.exe: /home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libsfml-graphics-s-d.a
+MY_CPP_PROJECT_CMAKE.exe: /home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libsfml-window-s-d.a
+MY_CPP_PROJECT_CMAKE.exe: /home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libsfml-system-s-d.a
+MY_CPP_PROJECT_CMAKE.exe: /usr/lib64/libudev.so
+MY_CPP_PROJECT_CMAKE.exe: /usr/lib64/libOpenGL.so
+MY_CPP_PROJECT_CMAKE.exe: /usr/lib64/libX11.so
+MY_CPP_PROJECT_CMAKE.exe: /usr/lib64/libXrandr.so
+MY_CPP_PROJECT_CMAKE.exe: /home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libfreetyped.a
+MY_CPP_PROJECT_CMAKE.exe: /home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libbz2d.a
+MY_CPP_PROJECT_CMAKE.exe: /home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libpng16d.a
+MY_CPP_PROJECT_CMAKE.exe: /home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libz.a
+MY_CPP_PROJECT_CMAKE.exe: /home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libbrotlidec-static.a
+MY_CPP_PROJECT_CMAKE.exe: /home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libbrotlicommon-static.a
 MY_CPP_PROJECT_CMAKE.exe: CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable MY_CPP_PROJECT_CMAKE.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MY_CPP_PROJECT_CMAKE.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -178,6 +120,6 @@ CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/clean:
 .PHONY : CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/clean
 
 CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/depend:
-	cd /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP /home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP /home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES /home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES /home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/depend
 

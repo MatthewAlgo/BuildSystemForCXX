@@ -1,6 +1,6 @@
 BUILDING ALL FILES IN ROOTDIR/SOURCE/CPP
--- The C compiler identification is GNU 11.1.0
--- The CXX compiler identification is GNU 11.1.0
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Check for working C compiler: /usr/bin/cc - skipped
@@ -11,41 +11,13 @@ BUILDING ALL FILES IN ROOTDIR/SOURCE/CPP
 -- Check for working CXX compiler: /usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Found SFML 2.5.1 in /usr/lib64/cmake/SFML
--- Found OpenGL: /usr/lib/libOpenGL.so   
--- Found Boost: /usr/lib64/cmake/Boost-1.76.0/BoostConfig.cmake (found suitable version "1.76.0", minimum required is "1.34.0") found components: system filesystem 
--- Found PkgConfig: /usr/bin/pkg-config (found version "1.7.3") 
--- Checking for module 'yaml-cpp>=0.2.5'
---   Found yaml-cpp, version 0.6.3
+-- Found Freetype: optimized;/home/matthewalgo/MSPackageManager/installed/x64-linux/lib/libfreetype.a;debug;/home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libfreetyped.a (found version "2.11.0") 
+-- Found ZLIB: optimized;/home/matthewalgo/MSPackageManager/installed/x64-linux/lib/libz.a;debug;/home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libz.a (found version "1.2.11") 
+-- Found BZip2: optimized;/home/matthewalgo/MSPackageManager/installed/x64-linux/lib/libbz2.a;debug;/home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libbz2d.a (found version "1.0.8") 
+-- Looking for BZ2_bzCompressInit
+-- Looking for BZ2_bzCompressInit - found
+-- Found PNG: optimized;/home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libpng.a;debug;/home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libpng16d.a (found version "1.6.37") 
+-- Found SFML 2.5.1 in /home/matthewalgo/MSPackageManager/installed/x64-linux/share/sfml
 -- Configuring done
 -- Generating done
--- Build files have been written to: /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES
-LINKING ALL FILES IN ROOTDIR/SOURCE_CPP AND CREATING EXECUTABLE...
-/usr/bin/cmake -S/run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP -B/run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES --check-build-system CMakeFiles/Makefile.cmake 0
-/usr/bin/cmake -E cmake_progress_start /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES//CMakeFiles/progress.marks
-make  -f CMakeFiles/Makefile2 all
-make[1]: Entering directory '/run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES'
-make  -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/depend
-make[2]: Entering directory '/run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES'
-cd /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/DependInfo.cmake --color=
-make[2]: Leaving directory '/run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES'
-make  -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build
-make[2]: Entering directory '/run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES'
-[ 16%] Building CXX object CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o
-/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK  -std=c++11 -pthread -g -Wall -g -fsanitize=address -fno-omit-frame-pointer -std=gnu++11 -MD -MT CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o -MF CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o.d -o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o -c /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyFile.cpp
-[ 33%] Building CXX object CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.o
-/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK  -std=c++11 -pthread -g -Wall -g -fsanitize=address -fno-omit-frame-pointer -std=gnu++11 -MD -MT CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.o -MF CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.o.d -o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.o -c /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyFourthFile.cpp
-[ 50%] Building CXX object CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.o
-/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK  -std=c++11 -pthread -g -Wall -g -fsanitize=address -fno-omit-frame-pointer -std=gnu++11 -MD -MT CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.o -MF CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.o.d -o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.o -c /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MySecondFile.cpp
-[ 66%] Building CXX object CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.o
-/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK  -std=c++11 -pthread -g -Wall -g -fsanitize=address -fno-omit-frame-pointer -std=gnu++11 -MD -MT CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.o -MF CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.o.d -o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.o -c /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyThirdFile.cpp
-[ 83%] Building CXX object CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.o
-/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK  -std=c++11 -pthread -g -Wall -g -fsanitize=address -fno-omit-frame-pointer -std=gnu++11 -MD -MT CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.o -MF CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.o.d -o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.o -c /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP/MyCXXFile.cxx
-[100%] Linking CXX executable MY_CPP_PROJECT_CMAKE.exe
-/usr/bin/cmake -E cmake_link_script CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++11 -pthread -g -Wall -g -fsanitize=address -fno-omit-frame-pointer CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.o CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.o -o MY_CPP_PROJECT_CMAKE.exe  /usr/lib/libsfml-graphics.so.2.5.1 /usr/lib/libsfml-network.so.2.5.1 /usr/lib/libOpenGL.so /usr/lib/libGLX.so /usr/lib/libGLU.so /usr/lib/libboost_system.so.1.76.0 /usr/lib/libboost_filesystem.so.1.76.0 -lyaml-cpp /usr/lib/libsfml-window.so.2.5.1 /usr/lib/libsfml-system.so.2.5.1 
-make[2]: Leaving directory '/run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES'
-[100%] Built target MY_CPP_PROJECT_CMAKE.exe
-make[1]: Leaving directory '/run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES'
-/usr/bin/cmake -E cmake_progress_start /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles 0
-LAUNCHING THE EXECUTABLE...
+-- Build files have been written to: /home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES

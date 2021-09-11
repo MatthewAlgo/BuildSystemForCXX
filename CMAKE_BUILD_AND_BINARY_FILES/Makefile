@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/SOURCE_CPP
+CMAKE_SOURCE_DIR = /home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES
+CMAKE_BINARY_DIR = /home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles /home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/matthewalgo/DATA_DISK_P1/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -174,30 +174,6 @@ MY_CPP_PROJECT_CMAKE.exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build
 .PHONY : MY_CPP_PROJECT_CMAKE.exe/fast
 
-MyCXXFile.o: MyCXXFile.cxx.o
-.PHONY : MyCXXFile.o
-
-# target to build an object file
-MyCXXFile.cxx.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.o
-.PHONY : MyCXXFile.cxx.o
-
-MyCXXFile.i: MyCXXFile.cxx.i
-.PHONY : MyCXXFile.i
-
-# target to preprocess a source file
-MyCXXFile.cxx.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.i
-.PHONY : MyCXXFile.cxx.i
-
-MyCXXFile.s: MyCXXFile.cxx.s
-.PHONY : MyCXXFile.s
-
-# target to generate assembly for a file
-MyCXXFile.cxx.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyCXXFile.cxx.s
-.PHONY : MyCXXFile.cxx.s
-
 MyFile.o: MyFile.cpp.o
 .PHONY : MyFile.o
 
@@ -222,78 +198,6 @@ MyFile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFile.cpp.s
 .PHONY : MyFile.cpp.s
 
-MyFourthFile.o: MyFourthFile.cpp.o
-.PHONY : MyFourthFile.o
-
-# target to build an object file
-MyFourthFile.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.o
-.PHONY : MyFourthFile.cpp.o
-
-MyFourthFile.i: MyFourthFile.cpp.i
-.PHONY : MyFourthFile.i
-
-# target to preprocess a source file
-MyFourthFile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.i
-.PHONY : MyFourthFile.cpp.i
-
-MyFourthFile.s: MyFourthFile.cpp.s
-.PHONY : MyFourthFile.s
-
-# target to generate assembly for a file
-MyFourthFile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyFourthFile.cpp.s
-.PHONY : MyFourthFile.cpp.s
-
-MySecondFile.o: MySecondFile.cpp.o
-.PHONY : MySecondFile.o
-
-# target to build an object file
-MySecondFile.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.o
-.PHONY : MySecondFile.cpp.o
-
-MySecondFile.i: MySecondFile.cpp.i
-.PHONY : MySecondFile.i
-
-# target to preprocess a source file
-MySecondFile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.i
-.PHONY : MySecondFile.cpp.i
-
-MySecondFile.s: MySecondFile.cpp.s
-.PHONY : MySecondFile.s
-
-# target to generate assembly for a file
-MySecondFile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MySecondFile.cpp.s
-.PHONY : MySecondFile.cpp.s
-
-MyThirdFile.o: MyThirdFile.cpp.o
-.PHONY : MyThirdFile.o
-
-# target to build an object file
-MyThirdFile.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.o
-.PHONY : MyThirdFile.cpp.o
-
-MyThirdFile.i: MyThirdFile.cpp.i
-.PHONY : MyThirdFile.i
-
-# target to preprocess a source file
-MyThirdFile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.i
-.PHONY : MyThirdFile.cpp.i
-
-MyThirdFile.s: MyThirdFile.cpp.s
-.PHONY : MyThirdFile.s
-
-# target to generate assembly for a file
-MyThirdFile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/build.make CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/MyThirdFile.cpp.s
-.PHONY : MyThirdFile.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -307,21 +211,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... MY_CPP_PROJECT_CMAKE.exe"
-	@echo "... MyCXXFile.o"
-	@echo "... MyCXXFile.i"
-	@echo "... MyCXXFile.s"
 	@echo "... MyFile.o"
 	@echo "... MyFile.i"
 	@echo "... MyFile.s"
-	@echo "... MyFourthFile.o"
-	@echo "... MyFourthFile.i"
-	@echo "... MyFourthFile.s"
-	@echo "... MySecondFile.o"
-	@echo "... MySecondFile.i"
-	@echo "... MySecondFile.s"
-	@echo "... MyThirdFile.o"
-	@echo "... MyThirdFile.i"
-	@echo "... MyThirdFile.s"
 .PHONY : help
 
 
