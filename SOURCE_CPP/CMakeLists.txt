@@ -45,7 +45,7 @@ endif()
 
 
 
-if(linux) # IF WE ARE ON LINUX
+if(UNIX) # IF WE ARE ON UNIX
 
 
 set(CMAKE_VERBOSE_MAKEFILE ON)

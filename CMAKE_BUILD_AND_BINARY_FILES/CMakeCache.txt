@@ -20,9 +20,8 @@ CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
-//Choose the type of build, options are: None Debug Release RelWithDebInfo
-// MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+//Choose the type of build (Debug or Release)
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -145,19 +144,19 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=ProjectInBuildSystem
+CMAKE_PROJECT_NAME:STATIC=MyCPPProject
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=0.1.0
+CMAKE_PROJECT_VERSION:STATIC=1.0
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MAJOR:STATIC=0
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=1
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=1
+CMAKE_PROJECT_VERSION_MINOR:STATIC=0
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=0
+CMAKE_PROJECT_VERSION_PATCH:STATIC=
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
@@ -225,6 +224,15 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+MyCPPProject_BINARY_DIR:STATIC=/home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES
+
+//Value Computed by CMake
+MyCPPProject_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+MyCPPProject_SOURCE_DIR:STATIC=/home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP
+
+//Value Computed by CMake
 ProjectInBuildSystem_BINARY_DIR:STATIC=/home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES
 
 //Value Computed by CMake
@@ -232,6 +240,12 @@ ProjectInBuildSystem_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 ProjectInBuildSystem_SOURCE_DIR:STATIC=/home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP
+
+//The directory containing a CMake configuration file for SFML.
+SFML_DIR:PATH=/usr/lib64/cmake/SFML
+
+//Path to a file.
+SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND
 
 
 ########################

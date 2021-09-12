@@ -11,6 +11,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.21.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.21.1/CMakeSystem.cmake"
   "/home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP/CMakeLists.txt"
+  "/usr/lib64/cmake/SFML/SFMLConfig.cmake"
+  "/usr/lib64/cmake/SFML/SFMLConfigDependencies.cmake"
+  "/usr/lib64/cmake/SFML/SFMLConfigVersion.cmake"
+  "/usr/lib64/cmake/SFML/SFMLSharedTargets-release.cmake"
+  "/usr/lib64/cmake/SFML/SFMLSharedTargets.cmake"
   "/usr/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.21/Modules/CMakeCInformation.cmake"
@@ -119,4 +124,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir/DependInfo.cmake"
   )
