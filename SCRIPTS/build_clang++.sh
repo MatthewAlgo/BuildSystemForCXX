@@ -382,7 +382,11 @@ for arg in "$@"; do
             #  clang++ -v -g -Wall -Weverything -Wextra -libstdc++17 -c ../SOURCE_CPP/$file ${LINKER_OPTIONS} | tee ../CLANG++_BUILD_AND_BINARY_FILES/CLANG++_BUILD_FILES/${file}_BUILD_MESSAGE.txt
             fi
           done
-          mv ./*.o ../CLANG++_BUILD_AND_BINARY_FILES/CLANG++_BUILD_FILES
+
+          echo "Moving all .o and .so files to ../CLANG++_BUILD_AND_BINARY_FILES/CLANG++_BUILD_FILES/" 
+          mv ./*.so ../CLANG++_BUILD_AND_BINARY_FILES/CLANG++_BUILD_FILES 
+          mv ./*.o ../CLANG++_BUILD_AND_BINARY_FILES/CLANG++_BUILD_FILES 
+
         fi
       done 
     done

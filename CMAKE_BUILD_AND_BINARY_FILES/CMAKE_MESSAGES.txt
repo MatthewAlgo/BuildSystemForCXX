@@ -1,6 +1,6 @@
 BUILDING ALL FILES IN ROOTDIR/SOURCE/CPP
--- The C compiler identification is GNU 10.3.0
--- The CXX compiler identification is GNU 10.3.0
+-- The C compiler identification is GNU 11.1.0
+-- The CXX compiler identification is GNU 11.1.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Check for working C compiler: /usr/bin/cc - skipped
@@ -11,13 +11,15 @@ BUILDING ALL FILES IN ROOTDIR/SOURCE/CPP
 -- Check for working CXX compiler: /usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Found Freetype: optimized;/home/matthewalgo/MSPackageManager/installed/x64-linux/lib/libfreetype.a;debug;/home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libfreetyped.a (found version "2.11.0") 
--- Found ZLIB: optimized;/home/matthewalgo/MSPackageManager/installed/x64-linux/lib/libz.a;debug;/home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libz.a (found version "1.2.11") 
--- Found BZip2: optimized;/home/matthewalgo/MSPackageManager/installed/x64-linux/lib/libbz2.a;debug;/home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libbz2d.a (found version "1.0.8") 
--- Looking for BZ2_bzCompressInit
--- Looking for BZ2_bzCompressInit - found
--- Found PNG: optimized;/home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libpng.a;debug;/home/matthewalgo/MSPackageManager/installed/x64-linux/debug/lib/libpng16d.a (found version "1.6.37") 
--- Found SFML 2.5.1 in /home/matthewalgo/MSPackageManager/installed/x64-linux/share/sfml
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES
+LINKING ALL FILES IN ROOTDIR/SOURCE_CPP AND CREATING EXECUTABLE...
+/usr/bin/cmake -S/home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP -B/home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles /home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES//CMakeFiles/progress.marks
+make  -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES'
+/usr/bin/cmake -E cmake_progress_start /home/matthewalgo/Projects/ProjectSkeletonForCXX/CMAKE_BUILD_AND_BINARY_FILES/CMakeFiles 0
+LAUNCHING THE EXECUTABLE...

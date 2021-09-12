@@ -201,3 +201,6 @@ LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-lin
 COLLECT_GCC_OPTIONS='-v' '-g' '-Wall' '-Wextra' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 Moving all .o and .so files to ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BUILD_FILES/
 PROGRAM BUILT! YOUR OBJECT FILES ARE IN THE "BUILD" FOLDER
+Moving all .o and .so files to ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BUILD_FILES/
+Moving all .o and .so files to ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BUILD_FILES/
+Moving all .o and .so files to ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BUILD_FILES/

@@ -1,7 +1,0 @@
-/home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP/[build/CMakeFiles/install/strip.dir
-/home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP/[build/CMakeFiles/install/local.dir
-/home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP/[build/CMakeFiles/install.dir
-/home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP/[build/CMakeFiles/list_install_components.dir
-/home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP/[build/CMakeFiles/rebuild_cache.dir
-/home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP/[build/CMakeFiles/edit_cache.dir
-/home/matthewalgo/Projects/ProjectSkeletonForCXX/SOURCE_CPP/[build/CMakeFiles/MY_CPP_PROJECT_CMAKE.exe.dir

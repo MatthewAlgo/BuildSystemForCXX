@@ -450,6 +450,7 @@ for arg in "$@"; do
               g++ -v -g -Wall -Wextra -libstdc++17 -c ../SOURCE_CPP/$file ${LINKER_OPTIONS} 2>&1 | tee -a ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BUILD_FILES/${file}_BUILD_MESSAGE.txt
               echo "BUILDING DYNAMIC LIBRARY... " 2>&1 | tee -a ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BUILD_FILES/${file}_BUILD_MESSAGE.txt
               g++ -v -fPIC -shared ../SOURCE_CPP/$file ${LINKER_OPTIONS} -o ${file}.so 2>&1 | tee -a ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BUILD_FILES/${file}_BUILD_MESSAGE.txt
+            
             #else
             #  echo "USING C++17 STDLIB..." | tee ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BUILD_FILES/${file}_BUILD_MESSAGE.txt
             #  g++ -v -g -Wall -Wextra -libstdc++17 -c ../SOURCE_CPP/$file ${LINKER_OPTIONS} | tee ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BUILD_FILES/${file}_BUILD_MESSAGE.txt
