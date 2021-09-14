@@ -1,5 +1,3 @@
-Building MyFile.cpp...
-USING C++17 STDLIB...
 Using built-in specs.
 COLLECT_GCC=g++
 Target: x86_64-pc-linux-gnu
@@ -8,7 +6,7 @@ Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.1.0 (GCC) 
 COLLECT_GCC_OPTIONS='-v' '-g' '-Wall' '-Wextra' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE ../SOURCE_CPP/MyFile.cpp -quiet -dumpbase MyFile.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -Wall -Wextra -version -o /tmp/ccpCak6v.s
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE ../SOURCE_CPP/MyFile.cpp -quiet -dumpbase MyFile.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -Wall -Wextra -version -o /tmp/cc6qlsmu.s
 GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 11.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -48,7 +46,7 @@ Compiler executable checksum: 45eb9a71cc15bfdc579557bea4b77e51
    28 |         MyWindow(size_t WWidth, size_t WHeight, std::string WTitle){
       |                                                 ~~~~~~~~~~~~^~~~~~
 COLLECT_GCC_OPTIONS='-v' '-g' '-Wall' '-Wextra' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --gdwarf-5 --64 -o MyFile.o /tmp/ccpCak6v.s
+ as -v --gdwarf-5 --64 -o MyFile.o /tmp/cc6qlsmu.s
 GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
@@ -63,7 +61,7 @@ Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.1.0 (GCC) 
 COLLECT_GCC_OPTIONS='-v' '-fPIC' '-shared' '-o' 'MyFile.cpp.so' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'MyFile.cpp.so-'
- /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE ../SOURCE_CPP/MyFile.cpp -quiet -dumpdir MyFile.cpp.so- -dumpbase MyFile.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fPIC -o /tmp/cci0QdYj.s
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE ../SOURCE_CPP/MyFile.cpp -quiet -dumpdir MyFile.cpp.so- -dumpbase MyFile.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fPIC -o /tmp/cclOViDM.s
 GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 11.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -87,10 +85,10 @@ warning: MPFR header version 4.1.0 differs from library version 4.1.0-p13.
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 45eb9a71cc15bfdc579557bea4b77e51
 COLLECT_GCC_OPTIONS='-v' '-fPIC' '-shared' '-o' 'MyFile.cpp.so' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'MyFile.cpp.so-'
- as -v --64 -o /tmp/ccnP9iWN.o /tmp/cci0QdYj.s
+ as -v --64 -o /tmp/ccYXHoY8.o /tmp/cclOViDM.s
 GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
 COLLECT_GCC_OPTIONS='-v' '-fPIC' '-shared' '-o' 'MyFile.cpp.so' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'MyFile.cpp.so.'
- /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUPYNiV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -shared -o MyFile.cpp.so /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. /tmp/ccnP9iWN.o -lsfml-graphics -lsfml-window -lsfml-audio -lsfml-system -lstdc++ -lm -lgcc_s -lc -lgcc_s /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8Tah7g.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -shared -o MyFile.cpp.so /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. /tmp/ccYXHoY8.o -lsfml-graphics -lsfml-window -lsfml-audio -lsfml-system -lstdc++ -lm -lgcc_s -lc -lgcc_s /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o
 COLLECT_GCC_OPTIONS='-v' '-fPIC' '-shared' '-o' 'MyFile.cpp.so' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'MyFile.cpp.so.'

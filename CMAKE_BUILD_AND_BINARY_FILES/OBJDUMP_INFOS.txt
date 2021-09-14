@@ -44,7 +44,7 @@ Dynamic Section:
   NEEDED               libgcc_s.so.1
   NEEDED               libpthread.so.0
   NEEDED               libc.so.6
-  RPATH                /home/matthewalgo/MSPackageManager/installed/x64-linux/lib:
+  RPATH                $ORIGIN
   INIT                 0x0000000000002000
   FINI                 0x0000000000003068
   PREINIT_ARRAY        0x0000000000005d00
