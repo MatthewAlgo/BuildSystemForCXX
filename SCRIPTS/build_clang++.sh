@@ -438,7 +438,8 @@ for arg in "$@"; do
     	if [[ "$(command -v patchelf) > /dev/null" ]] ; then
     	echo "CHANGING THE RPATH OF EVERY LIBRARY IN ../CLANG++_BUILD_AND_BINARY_FILES/CLANG++_BINARY_FILES/SHARED_LIBS/ TO FIRST SEARCH IN THE CURRENT DIRECTORY"
  	    patchelf --force-rpath --set-rpath "\$ORIGIN" ../CLANG++_BUILD_AND_BINARY_FILES/CLANG++_BINARY_FILES/SHARED_LIBS/*.so*
-    	fi
+    
+      fi
 
     	# COPYING SHARED LIBS FROM THE SHARED LIBS DIRECTORY
     	echo "COPYING SHARED LIBS FROM THE SHARED LIBS DIRECTORY + EXECUTABLE..."
