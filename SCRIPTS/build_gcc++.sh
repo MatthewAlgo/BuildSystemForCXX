@@ -527,10 +527,12 @@ for arg in "$@"; do
         cp ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BINARY_FILES/DISSASEMBLED_INFO.obj  ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BINARY_FILES/GCC_PROJECT_TO_BE_EXPORTEDED/
         cp ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BINARY_FILES/DISSASEMBLED_DEBUGGING.obj  ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BINARY_FILES/GCC_PROJECT_TO_BE_EXPORTEDED/
 
-      #echo "SETTING THE RPATH OF THE EXECUTABLE..."
-  		patchelf --set-rpath '$ORIGIN/' ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BINARY_FILES/EXECUTABLE.exe
-  		patchelf --set-interpreter '$ORIGIN/ld-linux-x86-64.so.2' ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BINARY_FILES/EXECUTABLE.exe
-  		
+      # echo "SETTING THE RPATH OF THE EXECUTABLE..."
+      if [[ "$(command -v patchelf) > /dev/null" ]] ; then
+  		  patchelf --set-rpath '$ORIGIN/' ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BINARY_FILES/EXECUTABLE.exe
+  		  patchelf --set-interpreter ./ld-linux-x86-64.so.2 ../GCC++_BUILD_AND_BINARY_FILES/GCC++_BINARY_FILES/EXECUTABLE.exe
+  		fi
+
   		echo "~DONE COPYING ENUMERATED FILES FILES~"
   		
       if [[ "$(command -v objdump) > /dev/null" ]] && [[ "$(command -v readelf) > /dev/null " ]] ; then
