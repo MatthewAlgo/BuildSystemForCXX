@@ -17,7 +17,7 @@ LINK_DIRECTORIES(
 )
 
 
-add_executable(ProjectInBuildSystem SourceFiles/MainFile.cpp IncludeFiles/helperHeader.h)
+add_executable(ProjectInBuildSystem SOURCE_CPP/mainFile.cpp)
 
 # For SFML
 find_package(SFML COMPONENTS system window graphics CONFIG REQUIRED) # REQUIRED FOR DLL's
@@ -84,7 +84,7 @@ LINK_DIRECTORIES(
 )
 
 
-add_executable(${EXECUTABLE_NAME} "MyFile.cpp"  "MyFirstHeader.h")
+add_executable(${EXECUTABLE_NAME} "mainFile.cpp") # Add your c++ and header files here
 
 
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/CMAKE_MODULES" ${CMAKE_MODULE_PATH})
@@ -99,9 +99,6 @@ target_link_libraries(${EXECUTABLE_NAME} PRIVATE
 )
 
 
-
 install(TARGETS ${EXECUTABLE_NAME} DESTINATION BINARY_CMAKE)
-
-
 
 endif()

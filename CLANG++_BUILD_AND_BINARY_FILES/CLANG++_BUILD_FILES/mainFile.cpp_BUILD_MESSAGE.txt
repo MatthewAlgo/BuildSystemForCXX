@@ -1,24 +1,24 @@
-Debian clang version 11.0.1-2
+clang version 13.0.1
 Target: x86_64-pc-linux-gnu
 Thread model: posix
 InstalledDir: /usr/bin
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/10
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/10
-Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/10
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0
+Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0
+Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0
 Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
 Selected multilib: .;@m64
- "/usr/lib/llvm-11/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name mainFile.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-11/lib/clang/11.0.1 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/backward -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-11/lib/clang/11.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/matthewalgo/Projects/BuildSystemForCXX/SCRIPTS -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -o /tmp/mainFile-09ec08.o -x c++ ../SOURCE_CPP/mainFile.cpp
-clang -cc1 version 11.0.1 based upon LLVM 11.0.1 default target x86_64-pc-linux-gnu
+ "/usr/bin/clang-13" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name mainFile.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/matthewalgo/Projects/VSCode/BuildSystemForCXX/SCRIPTS -resource-dir /usr/lib/clang/13.0.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/backward -internal-isystem /usr/lib/clang/13.0.1/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/matthewalgo/Projects/VSCode/BuildSystemForCXX/SCRIPTS -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /tmp/mainFile-c7deca.o -x c++ ../SOURCE_CPP/mainFile.cpp
+clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../x86_64-pc-linux-gnu/include"
 ignoring nonexistent directory "/include"
-ignoring duplicate directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10"
 #include "..." search starts here:
 #include <...> search starts here:
- /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10
- /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10
- /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/backward
+ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0
+ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/x86_64-pc-linux-gnu
+ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/backward
+ /usr/lib/clang/13.0.1/include
  /usr/local/include
- /usr/lib/llvm-11/lib/clang/11.0.1/include
- /usr/include/x86_64-linux-gnu
  /usr/include
 End of search list.
- "/usr/bin/ld" --build-id --eh-frame-hdr -m elf_x86_64 -shared -o mainFile.cpp.so /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/10 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../.. -L/usr/lib/llvm-11/bin/../lib -L/lib -L/usr/lib /tmp/mainFile-09ec08.o -lsfml-graphics -lsfml-window -lsfml-audio -lsfml-system -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" --eh-frame-hdr -m elf_x86_64 -shared -o mainFile.cpp.so /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/bin/../lib -L/lib -L/usr/lib /tmp/mainFile-c7deca.o -lsfml-graphics -lsfml-window -lsfml-audio -lsfml-system -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64/crtn.o
